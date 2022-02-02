@@ -1,0 +1,75 @@
+.Home {
+  background-image: url("../../assets/homepage-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1.25rem 0;
+}
+
+.hero {
+  min-height: 35vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10%;
+  padding: 4rem 0;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+  }
+}
+
+.hero img {
+  width: 100%;
+  margin-top: 1rem;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .hero img {
+    width: 40%;
+    margin-top: 0;
+  }
+}
+
+.hero__text h2 {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .hero__text h2 {
+    font-size: 2rem;
+  }
+}
+
+.MintPromptPrimary {
+  padding: 1rem 0;
+  min-width: 6.5rem;
+  margin-top: 1.15rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.hideMobile {
+  display: none;
+}
+
+.hideDesktop {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hideMobile {
+    display: unset;
+  }
+
+  .hideDesktop {
+    display: none;
+  }
+}
