@@ -39,6 +39,7 @@ const MintPrompt = () => {
         </button>
         <button className={`primary__btn ${Styles.filled_prompt}`}>Mint</button>
       </div>
+      <p>0.004ETH PER MINT</p>
     </div>
   );
 };

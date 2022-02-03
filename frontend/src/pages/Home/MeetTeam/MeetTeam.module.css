@@ -1,0 +1,41 @@
+.MeetTeam {
+  background-image: url("../../../assets/promotion_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.road__map {
+  /* margin: 4rem inherit 1.5rem inherit; */
+  margin-top: 3rem;
+  font-weight: 300;
+  font-size: 1.75rem;
+}
+
+@media (min-width: 768px) {
+  .road__map {
+    font-size: 2rem;
+  }
+}
+
+.card__section {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: space-between;
+  justify-content: space-between;
+  grid-gap: 3rem;
+  margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  .card__section {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+}

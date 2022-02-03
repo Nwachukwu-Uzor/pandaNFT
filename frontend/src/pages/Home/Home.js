@@ -6,6 +6,7 @@ import pandaImage from "../../assets/panda-image.png";
 
 // components
 import MintPrompt from "./MintPrompt/MintPrompt";
+import MeetTeam from "./MeetTeam/MeetTeam";
 
 const Home = () => {
   return (
@@ -38,6 +39,7 @@ const Home = () => {
         </div>
       </div>
       <MintPrompt />
+      <MeetTeam />
     </>
   );
 };
